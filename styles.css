@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ecdddd; 
+    background-image: url("butterflys.jpg");
+    
+}
+
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    border: 2px solid #333;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+    margin: 10px 0;
+}
+
+p, ul {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.contact-info, .section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
